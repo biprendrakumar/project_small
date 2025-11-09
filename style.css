@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#btn{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+}
+.small-box{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    border-radius: 5px;
+}
+.big-box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(74, 230, 87);
+    border-radius: 5px;
+}
